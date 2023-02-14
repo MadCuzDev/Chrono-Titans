@@ -299,6 +299,9 @@
      <Reference Include="UnityEditor.WindowsStandalone.Extensions">
      <HintPath>C:\Program Files\Unity 2021.3.17f1\Editor\Data\PlaybackEngines\WindowsStandaloneSupport\UnityEditor.WindowsStandalone.Extensions.dll</HintPath>
      </Reference>
+     <Reference Include="Unity.Collections.LowLevel.ILSupport">
+     <HintPath>C:\Local_Docs\GitHub\Chrono-Titans\Library\PackageCache\com.unity.collections@1.2.4\Unity.Collections.LowLevel.ILSupport\Unity.Collections.LowLevel.ILSupport.dll</HintPath>
+     </Reference>
      <Reference Include="Unity.VisualScripting.IonicZip">
      <HintPath>C:\Local_Docs\GitHub\Chrono-Titans\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll</HintPath>
      </Reference>
@@ -313,6 +316,9 @@
      </Reference>
      <Reference Include="Newtonsoft.Json">
      <HintPath>C:\Local_Docs\GitHub\Chrono-Titans\Library\PackageCache\com.unity.nuget.newtonsoft-json@3.0.2\Runtime\Newtonsoft.Json.dll</HintPath>
+     </Reference>
+     <Reference Include="Facepunch.Steamworks.Win64">
+     <HintPath>C:\Local_Docs\GitHub\Chrono-Titans\Library\PackageCache\com.community.netcode.transport.facepunch@858f6df327\Runtime\Facepunch\Facepunch.Steamworks.Win64.dll</HintPath>
      </Reference>
      <Reference Include="Unity.Plastic.Newtonsoft.Json">
      <HintPath>C:\Local_Docs\GitHub\Chrono-Titans\Library\PackageCache\com.unity.collab-proxy@1.17.7\Lib\Editor\PlasticSCM\Unity.Plastic.Newtonsoft.Json.dll</HintPath>
@@ -335,9 +341,6 @@
      <Reference Include="Unity.VisualScripting.TextureAssets">
      <HintPath>C:\Local_Docs\GitHub\Chrono-Titans\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\EditorAssetResources\Unity.VisualScripting.TextureAssets.dll</HintPath>
      </Reference>
-     <Reference Include="unityplastic">
-     <HintPath>C:\Local_Docs\GitHub\Chrono-Titans\Library\PackageCache\com.unity.collab-proxy@1.17.7\Lib\Editor\PlasticSCM\unityplastic.dll</HintPath>
-     </Reference>
      <Reference Include="Unity.Burst.Cecil">
      <HintPath>C:\Local_Docs\GitHub\Chrono-Titans\Library\PackageCache\com.unity.burst@1.8.2\Unity.Burst.CodeGen\Unity.Burst.Cecil.dll</HintPath>
      </Reference>
@@ -350,14 +353,11 @@
      <Reference Include="Unity.Analytics.Tracker">
      <HintPath>C:\Local_Docs\GitHub\Chrono-Titans\Library\PackageCache\com.unity.analytics@3.6.12\Unity.Analytics.Tracker.dll</HintPath>
      </Reference>
-     <Reference Include="Unity.Collections.LowLevel.ILSupport">
-     <HintPath>C:\Local_Docs\GitHub\Chrono-Titans\Library\PackageCache\com.unity.collections@1.2.4\Unity.Collections.LowLevel.ILSupport\Unity.Collections.LowLevel.ILSupport.dll</HintPath>
+     <Reference Include="unityplastic">
+     <HintPath>C:\Local_Docs\GitHub\Chrono-Titans\Library\PackageCache\com.unity.collab-proxy@1.17.7\Lib\Editor\PlasticSCM\unityplastic.dll</HintPath>
      </Reference>
      <Reference Include="Mono.Cecil">
      <HintPath>C:\Local_Docs\GitHub\Chrono-Titans\Library\PackageCache\com.unity.nuget.mono-cecil@1.10.1\Mono.Cecil.dll</HintPath>
-     </Reference>
-     <Reference Include="Facepunch.Steamworks.Win64">
-     <HintPath>C:\Local_Docs\GitHub\Chrono-Titans\Library\PackageCache\com.community.netcode.transport.facepunch@858f6df327\Runtime\Facepunch\Facepunch.Steamworks.Win64.dll</HintPath>
      </Reference>
      <Reference Include="nunit.framework">
      <HintPath>C:\Local_Docs\GitHub\Chrono-Titans\Library\PackageCache\com.unity.ext.nunit@1.0.6\net35\unity-custom\nunit.framework.dll</HintPath>
@@ -776,11 +776,20 @@
      <Reference Include="Unity.Searcher.Editor">
      <HintPath>C:\Local_Docs\GitHub\Chrono-Titans\Library\ScriptAssemblies\Unity.Searcher.Editor.dll</HintPath>
      </Reference>
+     <Reference Include="Facepunch Transport for Netcode for GameObjects">
+     <HintPath>C:\Local_Docs\GitHub\Chrono-Titans\Library\ScriptAssemblies\Facepunch Transport for Netcode for GameObjects.dll</HintPath>
+     </Reference>
      <Reference Include="Unity.VisualScripting.SettingsProvider.Editor">
      <HintPath>C:\Local_Docs\GitHub\Chrono-Titans\Library\ScriptAssemblies\Unity.VisualScripting.SettingsProvider.Editor.dll</HintPath>
      </Reference>
      <Reference Include="Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection">
      <HintPath>C:\Local_Docs\GitHub\Chrono-Titans\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection.dll</HintPath>
+     </Reference>
+     <Reference Include="Unity.Netcode.Editor">
+     <HintPath>C:\Local_Docs\GitHub\Chrono-Titans\Library\ScriptAssemblies\Unity.Netcode.Editor.dll</HintPath>
+     </Reference>
+     <Reference Include="Unity.Networking.Editor">
+     <HintPath>C:\Local_Docs\GitHub\Chrono-Titans\Library\ScriptAssemblies\Unity.Networking.Editor.dll</HintPath>
      </Reference>
      <Reference Include="UnityEditor.UI">
      <HintPath>C:\Local_Docs\GitHub\Chrono-Titans\Library\ScriptAssemblies\UnityEditor.UI.dll</HintPath>
@@ -794,17 +803,23 @@
      <Reference Include="Analytics">
      <HintPath>C:\Local_Docs\GitHub\Chrono-Titans\Library\ScriptAssemblies\Analytics.dll</HintPath>
      </Reference>
-     <Reference Include="UnityEngine.UI">
-     <HintPath>C:\Local_Docs\GitHub\Chrono-Titans\Library\ScriptAssemblies\UnityEngine.UI.dll</HintPath>
-     </Reference>
      <Reference Include="UnityEngine.SpatialTracking">
      <HintPath>C:\Local_Docs\GitHub\Chrono-Titans\Library\ScriptAssemblies\UnityEngine.SpatialTracking.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEngine.UI">
+     <HintPath>C:\Local_Docs\GitHub\Chrono-Titans\Library\ScriptAssemblies\UnityEngine.UI.dll</HintPath>
      </Reference>
      <Reference Include="Unity.EditorCoroutines.Editor">
      <HintPath>C:\Local_Docs\GitHub\Chrono-Titans\Library\ScriptAssemblies\Unity.EditorCoroutines.Editor.dll</HintPath>
      </Reference>
+     <Reference Include="Unity.Networking.Transport">
+     <HintPath>C:\Local_Docs\GitHub\Chrono-Titans\Library\ScriptAssemblies\Unity.Networking.Transport.dll</HintPath>
+     </Reference>
      <Reference Include="Unity.ShaderGraph.Editor">
      <HintPath>C:\Local_Docs\GitHub\Chrono-Titans\Library\ScriptAssemblies\Unity.ShaderGraph.Editor.dll</HintPath>
+     </Reference>
+     <Reference Include="Unity.Netcode.Components">
+     <HintPath>C:\Local_Docs\GitHub\Chrono-Titans\Library\ScriptAssemblies\Unity.Netcode.Components.dll</HintPath>
      </Reference>
      <Reference Include="Unity.Analytics.DataPrivacy">
      <HintPath>C:\Local_Docs\GitHub\Chrono-Titans\Library\ScriptAssemblies\Unity.Analytics.DataPrivacy.dll</HintPath>
@@ -820,6 +835,12 @@
      </Reference>
      <Reference Include="UnityEngine.Monetization">
      <HintPath>C:\Local_Docs\GitHub\Chrono-Titans\Library\ScriptAssemblies\UnityEngine.Monetization.dll</HintPath>
+     </Reference>
+     <Reference Include="Unity.Collections">
+     <HintPath>C:\Local_Docs\GitHub\Chrono-Titans\Library\ScriptAssemblies\Unity.Collections.dll</HintPath>
+     </Reference>
+     <Reference Include="Unity.Netcode.Editor.PackageChecker">
+     <HintPath>C:\Local_Docs\GitHub\Chrono-Titans\Library\ScriptAssemblies\Unity.Netcode.Editor.PackageChecker.dll</HintPath>
      </Reference>
      <Reference Include="Unity.VisualScripting.Flow.Editor">
      <HintPath>C:\Local_Docs\GitHub\Chrono-Titans\Library\ScriptAssemblies\Unity.VisualScripting.Flow.Editor.dll</HintPath>
@@ -865,6 +886,9 @@
      </Reference>
      <Reference Include="Unity.PlasticSCM.Editor">
      <HintPath>C:\Local_Docs\GitHub\Chrono-Titans\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll</HintPath>
+     </Reference>
+     <Reference Include="Unity.Netcode.Runtime">
+     <HintPath>C:\Local_Docs\GitHub\Chrono-Titans\Library\ScriptAssemblies\Unity.Netcode.Runtime.dll</HintPath>
      </Reference>
      <Reference Include="Unity.Services.Core">
      <HintPath>C:\Local_Docs\GitHub\Chrono-Titans\Library\ScriptAssemblies\Unity.Services.Core.dll</HintPath>
@@ -925,30 +949,6 @@
      </Reference>
      <Reference Include="Unity.VisualScripting.State">
      <HintPath>C:\Local_Docs\GitHub\Chrono-Titans\Library\ScriptAssemblies\Unity.VisualScripting.State.dll</HintPath>
-     </Reference>
-     <Reference Include="Unity.Networking.Editor">
-     <HintPath>C:\Local_Docs\GitHub\Chrono-Titans\Library\ScriptAssemblies\Unity.Networking.Editor.dll</HintPath>
-     </Reference>
-     <Reference Include="Unity.Collections">
-     <HintPath>C:\Local_Docs\GitHub\Chrono-Titans\Library\ScriptAssemblies\Unity.Collections.dll</HintPath>
-     </Reference>
-     <Reference Include="Unity.Netcode.Editor.PackageChecker">
-     <HintPath>C:\Local_Docs\GitHub\Chrono-Titans\Library\ScriptAssemblies\Unity.Netcode.Editor.PackageChecker.dll</HintPath>
-     </Reference>
-     <Reference Include="Unity.Netcode.Runtime">
-     <HintPath>C:\Local_Docs\GitHub\Chrono-Titans\Library\ScriptAssemblies\Unity.Netcode.Runtime.dll</HintPath>
-     </Reference>
-     <Reference Include="Unity.Netcode.Components">
-     <HintPath>C:\Local_Docs\GitHub\Chrono-Titans\Library\ScriptAssemblies\Unity.Netcode.Components.dll</HintPath>
-     </Reference>
-     <Reference Include="Unity.Netcode.Editor">
-     <HintPath>C:\Local_Docs\GitHub\Chrono-Titans\Library\ScriptAssemblies\Unity.Netcode.Editor.dll</HintPath>
-     </Reference>
-     <Reference Include="Unity.Networking.Transport">
-     <HintPath>C:\Local_Docs\GitHub\Chrono-Titans\Library\ScriptAssemblies\Unity.Networking.Transport.dll</HintPath>
-     </Reference>
-     <Reference Include="Facepunch Transport for Netcode for GameObjects">
-     <HintPath>C:\Local_Docs\GitHub\Chrono-Titans\Library\ScriptAssemblies\Facepunch Transport for Netcode for GameObjects.dll</HintPath>
      </Reference>
   </ItemGroup>
   <ItemGroup>

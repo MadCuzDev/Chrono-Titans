@@ -41,89 +41,91 @@
     <ImplicitlyExpandDesignTimeFacades>false</ImplicitlyExpandDesignTimeFacades>
   </PropertyGroup>
   <ItemGroup>
-     <Compile Include="Assets\Map Gen\Scripts\MapPreview.cs" />
-     <Compile Include="Assets\Map Gen\Scripts\Data\HeightMapSettings.cs" />
+     <Compile Include="Assets\Scripts\Map Editor\MapPreviewEditor.cs" />
+     <Compile Include="Assets\Scripts\Map Gen Scripts\MapPreview.cs" />
+     <Compile Include="Assets\Scripts\Map Gen Scripts\Data\HeightMapSettings.cs" />
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_TextSelector_A.cs" />
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\VertexShakeA.cs" />
+     <Compile Include="Assets\Scripts\Multiplayer_Scripts\GameManager.cs" />
      <Compile Include="Assets\Scripts\CharacterController.cs" />
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TextMeshProFloatingText.cs" />
-     <Compile Include="Assets\Map Gen\Scripts\Data\TextureData.cs" />
+     <Compile Include="Assets\Scripts\Map Gen Scripts\Data\TextureData.cs" />
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\VertexShakeB.cs" />
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\EnvMapAnimator.cs" />
-     <Compile Include="Assets\Map Gen\Standard Assets\Characters\FirstPersonCharacter\Scripts\RigidbodyFirstPersonController.cs" />
+     <Compile Include="Assets\Assets\Map Gen Standard Assets\Characters\FirstPersonCharacter\Scripts\RigidbodyFirstPersonController.cs" />
      <Compile Include="Assets\Scripts\Follow.cs" />
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\CameraController.cs" />
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMPro_InstructionOverlay.cs" />
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_ExampleScript_01.cs" />
-     <Compile Include="Assets\Map Gen\Scripts\Data\MeshSettings.cs" />
+     <Compile Include="Assets\Scripts\Map Gen Scripts\Data\MeshSettings.cs" />
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TextConsoleSimulator.cs" />
-     <Compile Include="Assets\Map Gen\Scripts\TerrainGenerator.cs" />
+     <Compile Include="Assets\Scripts\Map Gen Scripts\TerrainGenerator.cs" />
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_TextInfoDebugTool.cs" />
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_DigitValidator.cs" />
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TextMeshSpawner.cs" />
-     <Compile Include="Assets\Map Gen\Scripts\FalloffGenerator.cs" />
+     <Compile Include="Assets\Scripts\Map Gen Scripts\FalloffGenerator.cs" />
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\VertexJitter.cs" />
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_TextEventHandler.cs" />
      <Compile Include="Assets\Scripts\CameraController.cs" />
-     <Compile Include="Assets\Map Gen\Scripts\TextureGenerator.cs" />
-     <Compile Include="Assets\Map Gen\Scripts\TerrainChunk.cs" />
+     <Compile Include="Assets\Scripts\Map Gen Scripts\TextureGenerator.cs" />
+     <Compile Include="Assets\Scripts\Map Gen Scripts\TerrainChunk.cs" />
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\DropdownSample.cs" />
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_PhoneNumberValidator.cs" />
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\VertexColorCycler.cs" />
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TeleType.cs" />
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark01.cs" />
+     <Compile Include="Assets\Scripts\Multiplayer_Scripts\NetworkTransmission.cs" />
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\SkewTextExample.cs" />
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\SimpleScript.cs" />
-     <Compile Include="Assets\Map Gen\Scripts\ThreadedDataRequester.cs" />
+     <Compile Include="Assets\Scripts\Map Gen Scripts\ThreadedDataRequester.cs" />
+     <Compile Include="Assets\Scripts\Multiplayer_Scripts\GameNetworkManager.cs" />
+     <Compile Include="Assets\Scripts\Map Editor\UpdatableDataEditor.cs" />
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark01_UGUI.cs" />
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark04.cs" />
+     <Compile Include="Assets\Scripts\Multiplayer_Scripts\PlayerInfo.cs" />
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\ChatController.cs" />
-     <Compile Include="Assets\Map Gen\Standard Assets\Characters\FirstPersonCharacter\Scripts\MouseLook.cs" />
+     <Compile Include="Assets\Assets\Map Gen Standard Assets\Characters\FirstPersonCharacter\Scripts\MouseLook.cs" />
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_UiFrameRateCounter.cs" />
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\ObjectSpin.cs" />
-     <Compile Include="Assets\Map Gen\Scripts\Data\UpdatableData.cs" />
+     <Compile Include="Assets\Scripts\Map Gen Scripts\Data\UpdatableData.cs" />
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_TextEventCheck.cs" />
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\ShaderPropAnimator.cs" />
      <Compile Include="Assets\Scripts\PlayButton.cs" />
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\WarpTextExample.cs" />
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark02.cs" />
-     <Compile Include="Assets\Map Gen\Scripts\HideOnPlay.cs" />
+     <Compile Include="Assets\Scripts\Map Gen Scripts\HideOnPlay.cs" />
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark03.cs" />
-     <Compile Include="Assets\Map Gen\Scripts\Noise.cs" />
+     <Compile Include="Assets\Scripts\Map Gen Scripts\Noise.cs" />
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_FrameRateCounter.cs" />
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_TextSelector_B.cs" />
-     <Compile Include="Assets\Map Gen\Scripts\HeightMapGenerator.cs" />
-     <Compile Include="Assets\Map Gen\Scripts\MeshGenerator.cs" />
+     <Compile Include="Assets\Scripts\Map Gen Scripts\HeightMapGenerator.cs" />
+     <Compile Include="Assets\Scripts\Map Gen Scripts\MeshGenerator.cs" />
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\VertexZoom.cs" />
-     <Compile Include="Assets\Multiplayer_Scripts\GameNetworkManager.cs" />
-     <Compile Include="Assets\Multiplayer_Scripts\GameManager.cs" />
-     <Compile Include="Assets\Multiplayer_Scripts\PlayerInfo.cs" />
-     <Compile Include="Assets\Multiplayer_Scripts\NetworkTransmission.cs" />
      <Folder Include="Assets" />
      <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
      <None Include="Assets\Resources\BillingMode.json" />
      <Folder Include="Assets\TextMesh Pro\Examples &amp; Extras\Sprites" />
      <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Overlay.shader" />
      <Folder Include="Assets\TextMesh Pro\Sprites" />
-     <Folder Include="Assets\Map Gen\Standard Assets\Characters\FirstPersonCharacter\Scripts" />
+     <Folder Include="Assets\Assets\Map Gen Standard Assets\Characters\FirstPersonCharacter\Scripts" />
      <Folder Include="Assets\TextMesh Pro\Resources\Sprite Assets" />
      <None Include="Assets\TextMesh Pro\Shaders\TMP_Bitmap.shader" />
-     <Folder Include="Assets\Multiplayer_Scripts" />
+     <Folder Include="Assets\Scripts\Multiplayer_Scripts" />
      <None Include="Assets\TextMesh Pro\Examples &amp; Extras\Fonts\Oswald-Bold - OFL.txt" />
      <None Include="Assets\TextMesh Pro\Examples &amp; Extras\Fonts\Anton OFL.txt" />
      <Folder Include="Assets\TextMesh Pro\Resources\Fonts &amp; Materials" />
      <None Include="Assets\TextMesh Pro\Shaders\TMPro_Mobile.cginc" />
      <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF SSD.shader" />
      <Folder Include="Assets\TextMesh Pro\Resources" />
-     <Folder Include="Assets\Map Gen\Standard Assets\Characters\FirstPersonCharacter" />
+     <Folder Include="Assets\Assets\Map Gen Standard Assets\Characters\FirstPersonCharacter" />
      <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Surface-Mobile.shader" />
      <Folder Include="Assets\TextMesh Pro" />
      <Folder Include="Assets\TextMesh Pro\Examples &amp; Extras\Fonts" />
      <Folder Include="Assets\TextMesh Pro\Examples &amp; Extras\Resources" />
      <Folder Include="Assets\Sprites" />
-     <Folder Include="Assets\Map Gen\Materials" />
+     <Folder Include="Assets\Materials\Map Gen" />
      <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Surface.shader" />
-     <Folder Include="Assets\Map Gen\Scripts" />
+     <Folder Include="Assets\Scripts\Map Gen Scripts" />
      <None Include="Assets\TextMesh Pro\Sprites\EmojiOne Attribution.txt" />
      <None Include="Assets\TextMesh Pro\Shaders\TMP_Bitmap-Custom-Atlas.shader" />
      <Folder Include="Assets\TextMesh Pro\Examples &amp; Extras\Materials" />
@@ -132,10 +134,10 @@
      <None Include="Assets\TextMesh Pro\Resources\LineBreaking Leading Characters.txt" />
      <None Include="Assets\TextMesh Pro\Shaders\TMPro_Properties.cginc" />
      <Folder Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts" />
-     <Folder Include="Assets\Map Gen\Standard Assets" />
+     <Folder Include="Assets\Assets\Map Gen Standard Assets" />
      <Folder Include="Assets\Materials" />
      <None Include="Assets\TextMesh Pro\Shaders\TMPro_Surface.cginc" />
-     <None Include="Assets\Map Gen\Scripts\Terrain.shader" />
+     <None Include="Assets\Scripts\Map Gen Scripts\Terrain.shader" />
      <Folder Include="Assets\TextMesh Pro\Shaders" />
      <Folder Include="Assets\Assets" />
      <Folder Include="Assets\TextMesh Pro\Examples &amp; Extras\Resources\Sprite Assets" />
@@ -143,30 +145,31 @@
      <Folder Include="Assets\TextMesh Pro\Fonts" />
      <Folder Include="Assets\Map Gen\Terrain Assets" />
      <None Include="Assets\TextMesh Pro\Resources\LineBreaking Following Characters.txt" />
-     <Folder Include="Assets\Map Gen\Standard Assets\Characters\FirstPersonCharacter\Prefabs" />
+     <Folder Include="Assets\Assets\Map Gen Standard Assets\Characters\FirstPersonCharacter\Prefabs" />
      <Folder Include="Assets\Map Gen\Textures" />
      <Folder Include="Assets\TextMesh Pro\Examples &amp; Extras\Prefabs" />
      <Folder Include="Assets\TextMesh Pro\Examples &amp; Extras\Scenes" />
      <Folder Include="Assets\Resources" />
-     <Folder Include="Assets\Map Gen\Standard Assets\Characters" />
+     <Folder Include="Assets\Assets\Map Gen Standard Assets\Characters" />
      <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Masking.shader" />
-     <Folder Include="Assets\Map Gen\Scripts\Data" />
+     <Folder Include="Assets\Scripts\Map Gen Scripts\Data" />
      <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF Overlay.shader" />
      <None Include="Assets\TextMesh Pro\Shaders\TMP_Bitmap-Mobile.shader" />
-     <Folder Include="Assets\Map Gen\Standard Assets\PhysicsMaterials" />
+     <Folder Include="Assets\Assets\Map Gen Standard Assets\PhysicsMaterials" />
      <Folder Include="Assets\Scenes" />
      <None Include="Assets\TextMesh Pro\Fonts\LiberationSans - OFL.txt" />
      <Folder Include="Assets\TextMesh Pro\Examples &amp; Extras\Textures" />
      <Folder Include="Assets\TextMesh Pro\Documentation" />
      <Folder Include="Assets\TextMesh Pro\Examples &amp; Extras" />
      <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile.shader" />
-     <Folder Include="Assets\Map Gen\Scenes" />
+     <Folder Include="Assets\Scenes\Map Gen Scenes" />
      <Folder Include="Assets\Shaders" />
      <Folder Include="Assets\TextMesh Pro\Examples &amp; Extras\Resources\Fonts &amp; Materials" />
      <Folder Include="Assets\Scripts" />
      <Folder Include="Assets\TextMesh Pro\Examples &amp; Extras\Resources\Color Gradient Presets" />
      <Folder Include="Assets\Prefabs" />
      <None Include="Assets\TextMesh Pro\Sprites\EmojiOne.json" />
+     <Folder Include="Assets\Scripts\Map Editor" />
      <Folder Include="Assets\Map Gen" />
      <None Include="Assets\TextMesh Pro\Shaders\TMP_Sprite.shader" />
      <None Include="Assets\TextMesh Pro\Examples &amp; Extras\Fonts\Bangers - OFL.txt" />
@@ -416,6 +419,9 @@
      <Reference Include="UnityEditor.UnityConnectModule">
      <HintPath>C:\Program Files\Unity 2021.3.17f1\Editor\Data\Managed\UnityEngine\UnityEditor.UnityConnectModule.dll</HintPath>
      </Reference>
+     <Reference Include="Unity.Collections.LowLevel.ILSupport">
+     <HintPath>C:\Local_Docs\GitHub\Chrono-Titans\Library\PackageCache\com.unity.collections@1.2.4\Unity.Collections.LowLevel.ILSupport\Unity.Collections.LowLevel.ILSupport.dll</HintPath>
+     </Reference>
      <Reference Include="Unity.Burst.Cecil.Pdb">
      <HintPath>C:\Local_Docs\GitHub\Chrono-Titans\Library\PackageCache\com.unity.burst@1.8.2\Unity.Burst.CodeGen\Unity.Burst.Cecil.Pdb.dll</HintPath>
      </Reference>
@@ -424,6 +430,9 @@
      </Reference>
      <Reference Include="Newtonsoft.Json">
      <HintPath>C:\Local_Docs\GitHub\Chrono-Titans\Library\PackageCache\com.unity.nuget.newtonsoft-json@3.0.2\Runtime\Newtonsoft.Json.dll</HintPath>
+     </Reference>
+     <Reference Include="Facepunch.Steamworks.Win64">
+     <HintPath>C:\Local_Docs\GitHub\Chrono-Titans\Library\PackageCache\com.community.netcode.transport.facepunch@858f6df327\Runtime\Facepunch\Facepunch.Steamworks.Win64.dll</HintPath>
      </Reference>
      <Reference Include="Unity.Analytics.StandardEvents">
      <HintPath>C:\Local_Docs\GitHub\Chrono-Titans\Library\PackageCache\com.unity.analytics@3.6.12\AnalyticsStandardEvents\Unity.Analytics.StandardEvents.dll</HintPath>
@@ -446,14 +455,8 @@
      <Reference Include="Unity.Analytics.Tracker">
      <HintPath>C:\Local_Docs\GitHub\Chrono-Titans\Library\PackageCache\com.unity.analytics@3.6.12\Unity.Analytics.Tracker.dll</HintPath>
      </Reference>
-     <Reference Include="Unity.Collections.LowLevel.ILSupport">
-     <HintPath>C:\Local_Docs\GitHub\Chrono-Titans\Library\PackageCache\com.unity.collections@1.2.4\Unity.Collections.LowLevel.ILSupport\Unity.Collections.LowLevel.ILSupport.dll</HintPath>
-     </Reference>
      <Reference Include="Mono.Cecil">
      <HintPath>C:\Local_Docs\GitHub\Chrono-Titans\Library\PackageCache\com.unity.nuget.mono-cecil@1.10.1\Mono.Cecil.dll</HintPath>
-     </Reference>
-     <Reference Include="Facepunch.Steamworks.Win64">
-     <HintPath>C:\Local_Docs\GitHub\Chrono-Titans\Library\PackageCache\com.community.netcode.transport.facepunch@858f6df327\Runtime\Facepunch\Facepunch.Steamworks.Win64.dll</HintPath>
      </Reference>
      <Reference Include="netstandard">
      <HintPath>C:\Program Files\Unity 2021.3.17f1\Editor\Data\NetStandard\ref\2.1.0\netstandard.dll</HintPath>
@@ -854,11 +857,20 @@
      <Reference Include="Unity.Searcher.Editor">
      <HintPath>C:\Local_Docs\GitHub\Chrono-Titans\Library\ScriptAssemblies\Unity.Searcher.Editor.dll</HintPath>
      </Reference>
+     <Reference Include="Facepunch Transport for Netcode for GameObjects">
+     <HintPath>C:\Local_Docs\GitHub\Chrono-Titans\Library\ScriptAssemblies\Facepunch Transport for Netcode for GameObjects.dll</HintPath>
+     </Reference>
      <Reference Include="Unity.VisualScripting.SettingsProvider.Editor">
      <HintPath>C:\Local_Docs\GitHub\Chrono-Titans\Library\ScriptAssemblies\Unity.VisualScripting.SettingsProvider.Editor.dll</HintPath>
      </Reference>
      <Reference Include="Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection">
      <HintPath>C:\Local_Docs\GitHub\Chrono-Titans\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection.dll</HintPath>
+     </Reference>
+     <Reference Include="Unity.Netcode.Editor">
+     <HintPath>C:\Local_Docs\GitHub\Chrono-Titans\Library\ScriptAssemblies\Unity.Netcode.Editor.dll</HintPath>
+     </Reference>
+     <Reference Include="Unity.Networking.Editor">
+     <HintPath>C:\Local_Docs\GitHub\Chrono-Titans\Library\ScriptAssemblies\Unity.Networking.Editor.dll</HintPath>
      </Reference>
      <Reference Include="UnityEditor.UI">
      <HintPath>C:\Local_Docs\GitHub\Chrono-Titans\Library\ScriptAssemblies\UnityEditor.UI.dll</HintPath>
@@ -872,17 +884,23 @@
      <Reference Include="Analytics">
      <HintPath>C:\Local_Docs\GitHub\Chrono-Titans\Library\ScriptAssemblies\Analytics.dll</HintPath>
      </Reference>
-     <Reference Include="UnityEngine.UI">
-     <HintPath>C:\Local_Docs\GitHub\Chrono-Titans\Library\ScriptAssemblies\UnityEngine.UI.dll</HintPath>
-     </Reference>
      <Reference Include="UnityEngine.SpatialTracking">
      <HintPath>C:\Local_Docs\GitHub\Chrono-Titans\Library\ScriptAssemblies\UnityEngine.SpatialTracking.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEngine.UI">
+     <HintPath>C:\Local_Docs\GitHub\Chrono-Titans\Library\ScriptAssemblies\UnityEngine.UI.dll</HintPath>
      </Reference>
      <Reference Include="Unity.EditorCoroutines.Editor">
      <HintPath>C:\Local_Docs\GitHub\Chrono-Titans\Library\ScriptAssemblies\Unity.EditorCoroutines.Editor.dll</HintPath>
      </Reference>
+     <Reference Include="Unity.Networking.Transport">
+     <HintPath>C:\Local_Docs\GitHub\Chrono-Titans\Library\ScriptAssemblies\Unity.Networking.Transport.dll</HintPath>
+     </Reference>
      <Reference Include="Unity.ShaderGraph.Editor">
      <HintPath>C:\Local_Docs\GitHub\Chrono-Titans\Library\ScriptAssemblies\Unity.ShaderGraph.Editor.dll</HintPath>
+     </Reference>
+     <Reference Include="Unity.Netcode.Components">
+     <HintPath>C:\Local_Docs\GitHub\Chrono-Titans\Library\ScriptAssemblies\Unity.Netcode.Components.dll</HintPath>
      </Reference>
      <Reference Include="Unity.Analytics.DataPrivacy">
      <HintPath>C:\Local_Docs\GitHub\Chrono-Titans\Library\ScriptAssemblies\Unity.Analytics.DataPrivacy.dll</HintPath>
@@ -898,6 +916,12 @@
      </Reference>
      <Reference Include="UnityEngine.Monetization">
      <HintPath>C:\Local_Docs\GitHub\Chrono-Titans\Library\ScriptAssemblies\UnityEngine.Monetization.dll</HintPath>
+     </Reference>
+     <Reference Include="Unity.Collections">
+     <HintPath>C:\Local_Docs\GitHub\Chrono-Titans\Library\ScriptAssemblies\Unity.Collections.dll</HintPath>
+     </Reference>
+     <Reference Include="Unity.Netcode.Editor.PackageChecker">
+     <HintPath>C:\Local_Docs\GitHub\Chrono-Titans\Library\ScriptAssemblies\Unity.Netcode.Editor.PackageChecker.dll</HintPath>
      </Reference>
      <Reference Include="Unity.VisualScripting.Flow.Editor">
      <HintPath>C:\Local_Docs\GitHub\Chrono-Titans\Library\ScriptAssemblies\Unity.VisualScripting.Flow.Editor.dll</HintPath>
@@ -943,6 +967,9 @@
      </Reference>
      <Reference Include="Unity.PlasticSCM.Editor">
      <HintPath>C:\Local_Docs\GitHub\Chrono-Titans\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll</HintPath>
+     </Reference>
+     <Reference Include="Unity.Netcode.Runtime">
+     <HintPath>C:\Local_Docs\GitHub\Chrono-Titans\Library\ScriptAssemblies\Unity.Netcode.Runtime.dll</HintPath>
      </Reference>
      <Reference Include="Unity.Services.Core">
      <HintPath>C:\Local_Docs\GitHub\Chrono-Titans\Library\ScriptAssemblies\Unity.Services.Core.dll</HintPath>
@@ -1003,30 +1030,6 @@
      </Reference>
      <Reference Include="Unity.VisualScripting.State">
      <HintPath>C:\Local_Docs\GitHub\Chrono-Titans\Library\ScriptAssemblies\Unity.VisualScripting.State.dll</HintPath>
-     </Reference>
-     <Reference Include="Unity.Networking.Editor">
-     <HintPath>C:\Local_Docs\GitHub\Chrono-Titans\Library\ScriptAssemblies\Unity.Networking.Editor.dll</HintPath>
-     </Reference>
-     <Reference Include="Unity.Collections">
-     <HintPath>C:\Local_Docs\GitHub\Chrono-Titans\Library\ScriptAssemblies\Unity.Collections.dll</HintPath>
-     </Reference>
-     <Reference Include="Unity.Netcode.Editor.PackageChecker">
-     <HintPath>C:\Local_Docs\GitHub\Chrono-Titans\Library\ScriptAssemblies\Unity.Netcode.Editor.PackageChecker.dll</HintPath>
-     </Reference>
-     <Reference Include="Unity.Netcode.Runtime">
-     <HintPath>C:\Local_Docs\GitHub\Chrono-Titans\Library\ScriptAssemblies\Unity.Netcode.Runtime.dll</HintPath>
-     </Reference>
-     <Reference Include="Unity.Netcode.Components">
-     <HintPath>C:\Local_Docs\GitHub\Chrono-Titans\Library\ScriptAssemblies\Unity.Netcode.Components.dll</HintPath>
-     </Reference>
-     <Reference Include="Unity.Netcode.Editor">
-     <HintPath>C:\Local_Docs\GitHub\Chrono-Titans\Library\ScriptAssemblies\Unity.Netcode.Editor.dll</HintPath>
-     </Reference>
-     <Reference Include="Unity.Networking.Transport">
-     <HintPath>C:\Local_Docs\GitHub\Chrono-Titans\Library\ScriptAssemblies\Unity.Networking.Transport.dll</HintPath>
-     </Reference>
-     <Reference Include="Facepunch Transport for Netcode for GameObjects">
-     <HintPath>C:\Local_Docs\GitHub\Chrono-Titans\Library\ScriptAssemblies\Facepunch Transport for Netcode for GameObjects.dll</HintPath>
      </Reference>
   </ItemGroup>
   <ItemGroup>
