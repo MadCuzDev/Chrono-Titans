@@ -1,6 +1,7 @@
 ﻿using UnityEngine;
 using System.Collections;
 using System.Collections.Generic;
+using UnityEngine.AI;
 
 public class TerrainGenerator : MonoBehaviour {
 
@@ -23,7 +24,7 @@ public class TerrainGenerator : MonoBehaviour {
 
 	float meshWorldSize;
 	int chunksVisibleInViewDst;
-
+	
 	Dictionary<Vector2, TerrainChunk> terrainChunkDictionary = new Dictionary<Vector2, TerrainChunk>();
 	List<TerrainChunk> visibleTerrainChunks = new List<TerrainChunk>();
 
