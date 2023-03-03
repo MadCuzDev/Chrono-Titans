@@ -43,10 +43,12 @@
   <ItemGroup>
      <Compile Include="Assets\Scripts\Map Editor\MapPreviewEditor.cs" />
      <Compile Include="Assets\Scripts\Map Gen\MapPreview.cs" />
+     <Compile Include="Assets\Scripts\AI\Enemy.cs" />
      <Compile Include="Assets\Scripts\Map Gen\Data\HeightMapSettings.cs" />
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_TextSelector_A.cs" />
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\VertexShakeA.cs" />
      <Compile Include="Assets\Scripts\Multiplayer\GameManager.cs" />
+     <Compile Include="Assets\Scripts\AI\EnemyController.cs" />
      <Compile Include="Assets\Scripts\CharacterController.cs" />
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TextMeshProFloatingText.cs" />
      <Compile Include="Assets\Scripts\Map Gen\Data\TextureData.cs" />
@@ -101,8 +103,6 @@
      <Compile Include="Assets\Scripts\Map Gen\HeightMapGenerator.cs" />
      <Compile Include="Assets\Scripts\Map Gen\MeshGenerator.cs" />
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\VertexZoom.cs" />
-     <Compile Include="Assets\Scripts\AI\EnemyController.cs" />
-     <Compile Include="Assets\Scripts\AI\Enemy.cs" />
      <Folder Include="Assets" />
      <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
      <None Include="Assets\Resources\BillingMode.json" />
@@ -125,6 +125,7 @@
      <Folder Include="Assets\TextMesh Pro\Examples &amp; Extras\Resources" />
      <Folder Include="Assets\Sprites" />
      <Folder Include="Assets\Materials\Map Gen" />
+     <Folder Include="Assets\Scenes\Map Gen\Scene" />
      <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Surface.shader" />
      <Folder Include="Assets\Scripts\Map Gen" />
      <None Include="Assets\TextMesh Pro\Sprites\EmojiOne Attribution.txt" />
