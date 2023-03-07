@@ -103,6 +103,10 @@
      <Compile Include="Assets\Scripts\Map Gen\HeightMapGenerator.cs" />
      <Compile Include="Assets\Scripts\Map Gen\MeshGenerator.cs" />
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\VertexZoom.cs" />
+     <Compile Include="Assets\Scripts\Weapons\Bow.cs" />
+     <Compile Include="Assets\Scripts\Weapons\Arrow.cs" />
+     <Compile Include="Assets\Scripts\LookAtPlayer.cs" />
+     <Compile Include="Assets\Scripts\Loot\LootItem.cs" />
      <Folder Include="Assets" />
      <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
      <None Include="Assets\Resources\BillingMode.json" />
@@ -113,6 +117,7 @@
      <Folder Include="Assets\TextMesh Pro\Resources\Sprite Assets" />
      <None Include="Assets\TextMesh Pro\Shaders\TMP_Bitmap.shader" />
      <Folder Include="Assets\Scripts\Multiplayer" />
+     <Folder Include="Assets\Scripts\Loot" />
      <None Include="Assets\TextMesh Pro\Examples &amp; Extras\Fonts\Oswald-Bold - OFL.txt" />
      <None Include="Assets\TextMesh Pro\Examples &amp; Extras\Fonts\Anton OFL.txt" />
      <Folder Include="Assets\TextMesh Pro\Resources\Fonts &amp; Materials" />
@@ -120,11 +125,13 @@
      <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF SSD.shader" />
      <Folder Include="Assets\TextMesh Pro\Resources" />
      <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Surface-Mobile.shader" />
+     <Folder Include="Assets\Models" />
      <Folder Include="Assets\TextMesh Pro" />
      <Folder Include="Assets\TextMesh Pro\Examples &amp; Extras\Fonts" />
      <Folder Include="Assets\TextMesh Pro\Examples &amp; Extras\Resources" />
      <Folder Include="Assets\Sprites" />
      <Folder Include="Assets\Materials\Map Gen" />
+     <Folder Include="Assets\Scripts\Weapons" />
      <Folder Include="Assets\Scenes\Map Gen\Scene" />
      <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Surface.shader" />
      <Folder Include="Assets\Scripts\Map Gen" />

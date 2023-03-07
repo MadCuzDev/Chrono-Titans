@@ -1,14 +1,23 @@
+using System;
 using UnityEngine;
 using UnityEngine.AI;
 using System.Collections;
+using Unity.VisualScripting;
+using UnityEngine.UI;
 
 public class EnemyController : MonoBehaviour {
 
 	public float lookRadius = 10f;
+	public GameObject loot;
 
 	Transform target;
 	NavMeshAgent agent;
+
+	public Slider healthBar;
+	
 	public Transform player;
+
+	int health = 3;
 
 	void Start()
 	{
@@ -18,6 +27,8 @@ public class EnemyController : MonoBehaviour {
 
 	void Update ()
 	{
+		healthBar.value = health;
+		
 		// Get the distance to the player
 		float distance = Vector3.Distance(target.position, transform.position);
 
@@ -31,6 +42,19 @@ public class EnemyController : MonoBehaviour {
 				// Attack
 				FaceTarget();
 			}
+		}
+	}
+
+	private void OnCollisionEnter(Collision collision)
+	{
+		if (!collision.gameObject.CompareTag("Arrow")) return;
+		Destroy(collision.gameObject);
+		health--;
+		if (health <= 0)
+		{
+			var lootGameObject = Instantiate(loot, gameObject.transform);
+			lootGameObject.transform.parent = null;
+			Destroy(gameObject);
 		}
 	}
 
