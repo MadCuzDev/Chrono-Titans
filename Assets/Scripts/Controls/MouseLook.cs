@@ -19,6 +19,7 @@ namespace UnityStandardAssets.Characters.FirstPerson
         private Quaternion m_CharacterTargetRot;
         private Quaternion m_CameraTargetRot;
         private bool m_cursorIsLocked = true;
+        private bool isInventoryOpen = false;
 
         public void Init(Transform character, Transform camera)
         {
@@ -77,10 +78,16 @@ namespace UnityStandardAssets.Characters.FirstPerson
             {
                 m_cursorIsLocked = false;
             }
+            else if (Input.GetKeyUp(KeyCode.I))
+            {
+                isInventoryOpen = !isInventoryOpen;
+                m_cursorIsLocked = !isInventoryOpen;
+            }
             else if(Input.GetMouseButtonUp(0))
             {
-                m_cursorIsLocked = true;
+                if (!isInventoryOpen) m_cursorIsLocked = true;
             }
+            
 
             if (m_cursorIsLocked)
             {
