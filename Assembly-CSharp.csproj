@@ -49,7 +49,6 @@
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\VertexShakeA.cs" />
      <Compile Include="Assets\Scripts\Multiplayer\GameManager.cs" />
      <Compile Include="Assets\Scripts\AI\EnemyController.cs" />
-     <Compile Include="Assets\Scripts\CharacterController.cs" />
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TextMeshProFloatingText.cs" />
      <Compile Include="Assets\Scripts\Map Gen\Data\TextureData.cs" />
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\VertexShakeB.cs" />
@@ -57,6 +56,7 @@
      <Compile Include="Assets\Scripts\Controls\RigidbodyFirstPersonController.cs" />
      <Compile Include="Assets\Scripts\Follow.cs" />
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\CameraController.cs" />
+     <Compile Include="Assets\Scripts\UI\Inventory\PickUpInteractableObject.cs" />
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMPro_InstructionOverlay.cs" />
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_ExampleScript_01.cs" />
      <Compile Include="Assets\Scripts\Map Gen\Data\MeshSettings.cs" />
@@ -68,7 +68,6 @@
      <Compile Include="Assets\Scripts\Map Gen\FalloffGenerator.cs" />
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\VertexJitter.cs" />
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_TextEventHandler.cs" />
-     <Compile Include="Assets\Scripts\CameraController.cs" />
      <Compile Include="Assets\Scripts\Map Gen\TextureGenerator.cs" />
      <Compile Include="Assets\Scripts\Map Gen\TerrainChunk.cs" />
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\DropdownSample.cs" />
@@ -88,7 +87,10 @@
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\ChatController.cs" />
      <Compile Include="Assets\Scripts\Controls\MouseLook.cs" />
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_UiFrameRateCounter.cs" />
+     <Compile Include="Assets\Scripts\Weapons\Arrow.cs" />
+     <Compile Include="Assets\Scripts\Weapons\Bow.cs" />
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\ObjectSpin.cs" />
+     <Compile Include="Assets\Scripts\LookAtPlayer.cs" />
      <Compile Include="Assets\Scripts\Map Gen\Data\UpdatableData.cs" />
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_TextEventCheck.cs" />
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\ShaderPropAnimator.cs" />
@@ -103,10 +105,16 @@
      <Compile Include="Assets\Scripts\Map Gen\HeightMapGenerator.cs" />
      <Compile Include="Assets\Scripts\Map Gen\MeshGenerator.cs" />
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\VertexZoom.cs" />
-     <Compile Include="Assets\Scripts\Weapons\Bow.cs" />
-     <Compile Include="Assets\Scripts\Weapons\Arrow.cs" />
-     <Compile Include="Assets\Scripts\LookAtPlayer.cs" />
-     <Compile Include="Assets\Scripts\Loot\LootItem.cs" />
+     <Compile Include="Assets\Scripts\UI\Inventory\ItemGrid.cs" />
+     <Compile Include="Assets\Scripts\UI\Inventory\InventoryController.cs" />
+     <Compile Include="Assets\Scripts\UI\Inventory\GridInteract.cs" />
+     <Compile Include="Assets\Scripts\UI\Inventory\InventoryItem.cs" />
+     <Compile Include="Assets\Scripts\ToggleActiveOnPress.cs" />
+     <Compile Include="Assets\Scripts\Items\ItemData.cs" />
+     <Compile Include="Assets\EquipmentItemSlot.cs" />
+     <Compile Include="Assets\EquipmentItemSlotInteract.cs" />
+     <Compile Include="Assets\Inventory.cs" />
+     <Compile Include="Assets\Scripts\UI\Inventory\InteractableObject.cs" />
      <Folder Include="Assets" />
      <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
      <None Include="Assets\Resources\BillingMode.json" />
@@ -117,7 +125,8 @@
      <Folder Include="Assets\TextMesh Pro\Resources\Sprite Assets" />
      <None Include="Assets\TextMesh Pro\Shaders\TMP_Bitmap.shader" />
      <Folder Include="Assets\Scripts\Multiplayer" />
-     <Folder Include="Assets\Scripts\Loot" />
+     <Folder Include="Assets\Scripts\UI" />
+     <Folder Include="Assets\Scripts\Items" />
      <None Include="Assets\TextMesh Pro\Examples &amp; Extras\Fonts\Oswald-Bold - OFL.txt" />
      <None Include="Assets\TextMesh Pro\Examples &amp; Extras\Fonts\Anton OFL.txt" />
      <Folder Include="Assets\TextMesh Pro\Resources\Fonts &amp; Materials" />
@@ -125,6 +134,7 @@
      <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF SSD.shader" />
      <Folder Include="Assets\TextMesh Pro\Resources" />
      <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Surface-Mobile.shader" />
+     <Folder Include="Assets\Scripts\UI\Inventory" />
      <Folder Include="Assets\Models" />
      <Folder Include="Assets\TextMesh Pro" />
      <Folder Include="Assets\TextMesh Pro\Examples &amp; Extras\Fonts" />
