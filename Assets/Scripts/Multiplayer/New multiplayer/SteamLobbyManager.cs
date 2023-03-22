@@ -59,8 +59,8 @@ public class SteamLobbyManager : MonoBehaviour
         Debug.Log($"{friend.Name} joined the lobby");
 
         GameObject obj = Instantiate(InLobbyFriend, content);
-        obj.GetComponent<Text>().text = friend.Name;
-        obj.GetComponent<RawImage>().texture = await SteamFriendsManager.GetTextureFromSteamIdAsync(friend.Id);
+        obj.GetComponentInChildren<TMP_Text>().text = friend.Name;
+        obj.GetComponentInChildren<RawImage>().texture = await SteamFriendsManager.GetTextureFromSteamIdAsync(friend.Id);
         inLobby.Add(friend.Id, obj);
     }
 
