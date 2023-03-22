@@ -48,8 +48,10 @@
      <Compile Include="Assets\Scripts\Map Gen\Data\HeightMapSettings.cs" />
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_TextSelector_A.cs" />
      <Compile Include="Assets\Scripts\Inventory\InventoryController.cs" />
+     <Compile Include="Assets\Scripts\Multiplayer\New multiplayer\SteamManager.cs" />
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\VertexShakeA.cs" />
      <Compile Include="Assets\Scripts\Multiplayer\GameManager.cs" />
+     <Compile Include="Assets\Scripts\Multiplayer\New multiplayer\FriendObject.cs" />
      <Compile Include="Assets\Scripts\AI\EnemyController.cs" />
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TextMeshProFloatingText.cs" />
      <Compile Include="Assets\Scripts\Map Gen\Data\TextureData.cs" />
@@ -110,15 +112,13 @@
      <Compile Include="Assets\Scripts\Map Gen\HideOnPlay.cs" />
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark03.cs" />
      <Compile Include="Assets\Scripts\Map Gen\Noise.cs" />
+     <Compile Include="Assets\Scripts\Multiplayer\New multiplayer\SteamLobbyManager.cs" />
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_FrameRateCounter.cs" />
+     <Compile Include="Assets\Scripts\Multiplayer\New multiplayer\SteamFriendsManager.cs" />
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_TextSelector_B.cs" />
      <Compile Include="Assets\Scripts\Map Gen\HeightMapGenerator.cs" />
      <Compile Include="Assets\Scripts\Map Gen\MeshGenerator.cs" />
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\VertexZoom.cs" />
-     <Compile Include="Assets\Scripts\Multiplayer\New multiplayer\SteamLobbyManager.cs" />
-     <Compile Include="Assets\Scripts\Multiplayer\New multiplayer\SteamFriendsManager.cs" />
-     <Compile Include="Assets\Scripts\Multiplayer\New multiplayer\FriendObject.cs" />
-     <Compile Include="Assets\Scripts\Multiplayer\New multiplayer\SteamManager.cs" />
      <Folder Include="Assets" />
      <Folder Include="Assets\Plugin\Facepunch.Steamworks\redistributable_bin\win64" />
      <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
@@ -463,6 +463,9 @@
      <Reference Include="Newtonsoft.Json">
      <HintPath>C:\Local_Docs\GitHub\Chrono-Titans\Library\PackageCache\com.unity.nuget.newtonsoft-json@3.0.2\Runtime\Newtonsoft.Json.dll</HintPath>
      </Reference>
+     <Reference Include="Facepunch.Steamworks.Win64">
+     <HintPath>C:\Local_Docs\GitHub\Chrono-Titans\Assets\Plugin\Facepunch.Steamworks\Facepunch.Steamworks.Win64.dll</HintPath>
+     </Reference>
      <Reference Include="Unity.Analytics.StandardEvents">
      <HintPath>C:\Local_Docs\GitHub\Chrono-Titans\Library\PackageCache\com.unity.analytics@3.6.12\AnalyticsStandardEvents\Unity.Analytics.StandardEvents.dll</HintPath>
      </Reference>
@@ -486,9 +489,6 @@
      </Reference>
      <Reference Include="Mono.Cecil">
      <HintPath>C:\Local_Docs\GitHub\Chrono-Titans\Library\PackageCache\com.unity.nuget.mono-cecil@1.10.1\Mono.Cecil.dll</HintPath>
-     </Reference>
-     <Reference Include="Facepunch.Steamworks.Win64">
-     <HintPath>C:\Local_Docs\GitHub\Chrono-Titans\Assets\Plugin\Facepunch.Steamworks\Facepunch.Steamworks.Win64.dll</HintPath>
      </Reference>
      <Reference Include="netstandard">
      <HintPath>C:\Program Files\Unity\Hub\Editor\2021.3.19f1\Editor\Data\NetStandard\ref\2.1.0\netstandard.dll</HintPath>
