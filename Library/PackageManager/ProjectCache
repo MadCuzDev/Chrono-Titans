@@ -193,6 +193,7 @@ m_ResolvedPackages:
     - 4.2.1
     - 4.3.0
     - 4.4.1
+    - 4.4.2
     compatible:
     - 3.7.5
     - 4.0.0
@@ -201,6 +202,7 @@ m_ResolvedPackages:
     - 4.2.1
     - 4.3.0
     - 4.4.1
+    - 4.4.2
     verified: 3.7.5
   dependencies:
   - name: com.unity.ugui
@@ -818,8 +820,10 @@ m_ResolvedPackages:
     - 1.0.2
     - 1.1.0
     - 1.2.0
+    - 1.3.1
     compatible:
     - 1.2.0
+    - 1.3.1
     verified: 1.2.0
   dependencies:
   - name: com.unity.nuget.mono-cecil
@@ -4307,9 +4311,11 @@ m_ResolvedPackages:
     - 1.7.0
     - 1.7.1
     - 1.8.1
+    - 1.8.2
     compatible:
     - 1.7.1
     - 1.8.1
+    - 1.8.2
     verified: 1.7.1
   dependencies:
   - name: com.unity.modules.unitywebrequest

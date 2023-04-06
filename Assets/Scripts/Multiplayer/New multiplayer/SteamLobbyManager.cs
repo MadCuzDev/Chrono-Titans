@@ -9,6 +9,7 @@ using UnityEngine.Events;
 using Steamworks;
 using Steamworks.Data;
 using TMPro;
+using UnityEngine.SceneManagement;
 
 public class SteamLobbyManager : MonoBehaviour
 {
@@ -42,7 +43,11 @@ public class SteamLobbyManager : MonoBehaviour
         SteamMatchmaking.OnLobbyGameCreated += OnLobbyGameCreated;
         SteamFriends.OnGameLobbyJoinRequested += OnGameLobbyJoinRequest;
         SteamMatchmaking.OnLobbyInvite += OnLobbyInvite;
+        SteamMatchmaking.OnLobbyGameCreated += OnLobbyGameCreated;
     }
+    
+    
+    
     
     void OnLobbyInvite(Friend friend, Lobby lobby)
     {
@@ -193,4 +198,42 @@ public class SteamLobbyManager : MonoBehaviour
 
         }
     }
+
+    public void ReadyButton()
+    {
+        currentLobby.SetMemberData("Ready", "true");
+    }
+
+    public void NotReadyButton()
+    {
+        currentLobby.SetMemberData("Ready", "true");
+    }
+
+     public void StartGameFromLobby()
+    {
+        bool allready = true;
+        if (SteamClient.SteamId == currentLobby.Owner.Id)
+        {
+            Debug.Log("host attempted to start game");
+            currentLobby.SetGameServer(currentLobby.Owner.Id);
+
+            foreach (Friend friend in currentLobby.Members)
+            {
+                string status = currentLobby.GetMemberData(friend, "Ready");
+                Debug.Log($"{friend.Name} is: {status}");
+
+                if (status != "true")
+                {
+                    allready = false;
+                }
+            }
+
+            if (allready == true)
+            {
+                SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+            }
+        }
+    }
+    
+   
 }
