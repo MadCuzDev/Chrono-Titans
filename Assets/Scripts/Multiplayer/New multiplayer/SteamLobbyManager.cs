@@ -230,7 +230,7 @@ public class SteamLobbyManager : MonoBehaviour
 
             if (allready == true)
             {
-                SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+               SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
             }
         }
     }
