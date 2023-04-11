@@ -144,11 +144,6 @@
 -define:CECIL_CONSTRAINTS_ARE_TYPE_REFERENCES
 -define:CSHARP_7_OR_LATER
 -define:CSHARP_7_3_OR_NEWER
--r:"C:/Local_Docs/GitHub/Chrono-Titans/Library/PackageCache/com.unity.ext.nunit@1.0.6/net35/unity-custom/nunit.framework.dll"
--r:"C:/Local_Docs/GitHub/Chrono-Titans/Library/PackageCache/com.unity.nuget.mono-cecil@1.10.1/Mono.Cecil.dll"
--r:"C:/Local_Docs/GitHub/Chrono-Titans/Library/PackageCache/com.unity.nuget.mono-cecil@1.10.1/Mono.Cecil.Mdb.dll"
--r:"C:/Local_Docs/GitHub/Chrono-Titans/Library/PackageCache/com.unity.nuget.mono-cecil@1.10.1/Mono.Cecil.Pdb.dll"
--r:"C:/Local_Docs/GitHub/Chrono-Titans/Library/PackageCache/com.unity.nuget.mono-cecil@1.10.1/Mono.Cecil.Rocks.dll"
 -r:"C:/Program Files/Unity/Hub/Editor/2021.3.19f1/Editor/Data/Managed/Unity.CompilationPipeline.Common.dll"
 -r:"C:/Program Files/Unity/Hub/Editor/2021.3.19f1/Editor/Data/Managed/UnityEditor.Graphs.dll"
 -r:"C:/Program Files/Unity/Hub/Editor/2021.3.19f1/Editor/Data/Managed/UnityEngine/UnityEditor.CoreModule.dll"
@@ -360,6 +355,11 @@
 -r:"C:/Program Files/Unity/Hub/Editor/2021.3.19f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/System.Transactions.dll"
 -r:"C:/Program Files/Unity/Hub/Editor/2021.3.19f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/System.Xml.dll"
 -r:"C:/Program Files/Unity/Hub/Editor/2021.3.19f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/System.Xml.Linq.dll"
+-r:"C:/Users/devan/Documents/GitHub/Chrono-Titans/Library/PackageCache/com.unity.ext.nunit@1.0.6/net35/unity-custom/nunit.framework.dll"
+-r:"C:/Users/devan/Documents/GitHub/Chrono-Titans/Library/PackageCache/com.unity.nuget.mono-cecil@1.10.1/Mono.Cecil.dll"
+-r:"C:/Users/devan/Documents/GitHub/Chrono-Titans/Library/PackageCache/com.unity.nuget.mono-cecil@1.10.1/Mono.Cecil.Mdb.dll"
+-r:"C:/Users/devan/Documents/GitHub/Chrono-Titans/Library/PackageCache/com.unity.nuget.mono-cecil@1.10.1/Mono.Cecil.Pdb.dll"
+-r:"C:/Users/devan/Documents/GitHub/Chrono-Titans/Library/PackageCache/com.unity.nuget.mono-cecil@1.10.1/Mono.Cecil.Rocks.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/Unity.Collections.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/Unity.Netcode.Runtime.ref.dll"
 "Library/PackageCache/com.unity.netcode.gameobjects@1.2.0/Editor/CodeGen/CodeGenHelpers.cs"
